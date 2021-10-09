@@ -6,7 +6,7 @@ Per acceptance criteria and mockup, the requested functionality has been coded o
 
 Screenshot
 
- <img src="./assets/images/screenshot.png" alt="Screenshot of Lukasz' Professional Portfolio"/>
+ <img src="./images/screenshot.png" alt="Screenshot of Lukasz' Professional Portfolio"/>
 
 
 Links
