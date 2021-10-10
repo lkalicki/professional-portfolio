@@ -138,7 +138,7 @@ header nav ul li a {
   /* Work */
 
 .projects {
-    padding:20px
+    padding:20px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -162,8 +162,7 @@ header nav ul li a {
 .project h4 {
     font-weight: lighter;
     font-size: 15px;
-    margin-bottom: 15px;
-  }
+    }
 
 .projects:first-child {
     width: 100%;
@@ -229,7 +228,7 @@ footer {
     }
 footer h2 { 
       color: var(--secondary-color);
-      font-size: 15px;
+      font-size: 25px;
       margin: 0;
      
     }
