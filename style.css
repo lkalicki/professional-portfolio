@@ -15,6 +15,8 @@ body {
     }
 .flex-row {
         display: flex;
+        flex-direction: row;
+      flex-wrap: wrap;
       }
 section {
         padding: 30px;
@@ -140,8 +142,6 @@ header nav ul li a {
 .projects {
     padding:20px;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
   }
 .project {
@@ -165,11 +165,13 @@ header nav ul li a {
     }
 
 .projects:first-child {
-    width: 100%;
-    flex-grow: 5;
+    flex-basis: 100%;
 }
 .projects:not(first-child) {
-    flex:1
+    flex-basis: 33%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: ;
 }
 
   /* Contact */
